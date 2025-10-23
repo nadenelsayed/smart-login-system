@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Dancing Script',cursive ;
+  background: linear-gradient(135deg, #0f0634, #9053c5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #9053c5;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+  width: 330px;
+  text-align: center;
+}
+
+h1 {
+  color: #3f2b67;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+input {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #a85ae3;
+  outline: none;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+input:focus {
+  border-color: #8e2de2;
+  box-shadow: 0 0 5px rgba(142, 45, 226, 0.4);
+}
+
+button {
+  background: linear-gradient(135deg, #4a00e0, #8e2de2);
+  color: #f5bbff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(142, 45, 226, 0.4);
+}
+
+a {
+  color: #8e2de2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.message {
+  margin-top: 12px;
+  font-weight: 500;
+}
+
+.hidden {
+  display: none;
+}
+
+#logoutBtn {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  margin-top: 25px;
+}
+
+#logoutBtn:hover {
+  box-shadow: 0 8px 15px rgba(255, 65, 108, 0.3);
+}
